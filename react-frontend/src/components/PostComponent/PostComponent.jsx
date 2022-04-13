@@ -7,7 +7,7 @@ import { AuthContext } from '../../App';
 
 function PostComponent(props) {
 	const context = useContext(AuthContext);
-  const [userWalletAddress] = context;
+  	const [userWalletAddress] = context;
 	const [post] = useState(props.post);
 	const [addCommentModalShow, setCommentModalShow] = useState(false);
 	const [imgIsLoading, setImgIsLoading] = useState(true);

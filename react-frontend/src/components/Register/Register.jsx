@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
-import {Modal, Button, Form} from 'react-bootstrap'; 
-import DcsContractCall, { getContract } from "../ContractCall/DcsContractCall";
+import { Button } from 'react-bootstrap'; 
+import { getContract } from "../ContractCall/DcsContractCall";
 import { AuthContext } from "../../App";
-import { ethers } from 'ethers';
+
 
 function Register(props){
     const context = useContext(AuthContext);

@@ -40,7 +40,7 @@ function Navbar() {
         />
         <Register setdcstoken={setDcsToken}/>
         </div>
-        <div className="amountOfToken">{dcsToken} DCS </div>
+        <div className="amountOfToken"> {dcsToken} DCS </div>
     </div>
   )
 }
